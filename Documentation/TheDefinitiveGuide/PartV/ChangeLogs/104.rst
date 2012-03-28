@@ -1,14 +1,20 @@
-====================\\n1.0.4\\n====================\\n\\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\nBase Distribution\\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\n
+====================
+1.0.4
+====================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Base Distribution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [BUGFIX] Fixes wrong URL to tutorials page in Readme.txt
 -----------------------------------------------------------------------------------------
 
 * Fixes: `#33031 <http://forge.typo3.org/issues/33031>`_
 * Commit: `0c887eb <http://git.typo3.org/FLOW3/Distributions/Base.git?a=commit;h=0c887eb0e02343c7b90e512411ab2adbc4a5f760>`_
 
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `0787c2c <http://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git?a=commit;h=0787c2cebc1cca121ecf4d31bad0ce0b958697d8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TYPO3.FLOW3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [SECURITY] Protect arguments of form __referrer with HMAC
 -----------------------------------------------------------------------------------------
@@ -27,7 +33,7 @@ This change also backports some convenience hmac methods
 to the hash service from the current master, to have the
 bugfix in sync.
 
-Security-Bulletin: FLOW3-SA-2012-001
+* Security-Bulletin: `FLOW3-SA-2012-001 <http://typo3.org/teams/security/security-bulletins/flow3/flow3-sa-2012-001/>`_
 * Fixes: `#35300 <http://forge.typo3.org/issues/35300>`_
 * Commit: `cd39af5 <http://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git?a=commit;h=cd39af5dddd1695b499ca038c5add38d46436e4c>`_
 
@@ -88,19 +94,9 @@ the method '__desctruct' instead of '__destruct'
 * Fixes: `#34293 <http://forge.typo3.org/issues/34293>`_
 * Commit: `55150fe <http://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git?a=commit;h=55150fe526b60d0200b6afd40731b8c36cef1bc4>`_
 
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `8979c37 <http://git.typo3.org/FLOW3/Packages/TYPO3.FLOW3.git?a=commit;h=8979c375e24b84824a40c58a15b29107612e8908>`_
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 TYPO3.Fluid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `d3bb670 <http://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git?a=commit;h=d3bb6703705959cc73a1cfe9d0e0f032d71b561c>`_
 
 [SECURITY] Protect arguments of form __referrer with HMAC
 -----------------------------------------------------------------------------------------
@@ -118,51 +114,4 @@ exploit!
 Security-Bulletin: FLOW3-SA-2012-001
 * Related: `#35300 <http://forge.typo3.org/issues/35300>`_
 * Commit: `7bc4e35 <http://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git?a=commit;h=7bc4e35752779bab0c51fc82387088d9217277ba>`_
-
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `c5ae639 <http://git.typo3.org/FLOW3/Packages/TYPO3.Fluid.git?a=commit;h=c5ae63964bbe211b454fed246c26678d00eed167>`_
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-TYPO3.Kickstart
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `8ee7993 <http://git.typo3.org/FLOW3/Packages/TYPO3.Kickstart.git?a=commit;h=8ee79931afcc9008ac0b4dd0ad572b5ac974ec5b>`_
-
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `6b14fbc <http://git.typo3.org/FLOW3/Packages/TYPO3.Kickstart.git?a=commit;h=6b14fbc9de1f0f404a49fabb4a120b77103947be>`_
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-TYPO3.Party
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `5ecd67c <http://git.typo3.org/FLOW3/Packages/TYPO3.Party.git?a=commit;h=5ecd67c6cf354932a3778d7edfcc82fc7e02f395>`_
-
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `d0b8783 <http://git.typo3.org/FLOW3/Packages/TYPO3.Party.git?a=commit;h=d0b878349253c79a4c976ec27c652cde59f93885>`_
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-TYPO3.Welcome
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `e446ff2 <http://git.typo3.org/FLOW3/Packages/TYPO3.Welcome.git?a=commit;h=e446ff2c0c883adda1220c8817b9640a9c49cfb6>`_
-
-[TASK] Update Package.xml with new version number
------------------------------------------------------------------------------------------
-
-* Commit: `f80abb5 <http://git.typo3.org/FLOW3/Packages/TYPO3.Welcome.git?a=commit;h=f80abb5db28f2408140164c6475102cdedc54a75>`_
 
